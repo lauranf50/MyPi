@@ -1,8 +1,9 @@
 function mypi(n)
-       sum = 0
-       for a = 1:n
-       sum = sum + (1/(a*a))
-       end
-       sum = sqrt(sum * 6)
-       return sum
-       end
+    number = 0
+    for a = 1:n
+        b = (1/(a^2))
+	number += b
+    end
+    number = sqrt(number * 6)
+    return number
+end
